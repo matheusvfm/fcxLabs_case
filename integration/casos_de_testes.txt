@@ -1,0 +1,38 @@
+Casos de Teste do E-commerce Advantage Online Shopping
+
+1. Cadastro de Usuário
+# Objetivo: Garantir que um usuário possa se cadastrar corretamente.
+# Pré-condições: O usuário não pode estar cadastrado.
+# Passos:
+- Acessar a página de registro.
+- Preencher todos os campos obrigatórios.
+- Aceitar os termos de uso.
+- Clicar no botão de cadastro.
+# Resultado esperado: O usuário é registrado com sucesso e logado automaticamente.
+
+2. Login com Usuário Existente
+# Objetivo: Verificar que um usuário pode fazer login corretamente.
+# Pré-condições: O usuário já deve estar cadastrado.
+# Passos:
+- Acessar a página de login.
+- Inserir um nome de usuário e senha válidos.
+- Clicar no botão de login.
+# Resultado esperado: O login é realizado com sucesso, e o usuário é direcionado para a página inicial.
+
+3. Adicionar Produto ao Carrinho
+# Objetivo: Validar que um usuário pode adicionar um produto ao carrinho.
+# Pré-condições: O usuário deve estar logado (opcional).
+# Passos:
+- Acessar a página de um produto.
+- Clicar no botão "Adicionar ao Carrinho".
+- Acessar o carrinho e verificar a presença do produto.
+# Resultado esperado: O produto deve aparecer no carrinho com os detalhes corretos.
+
+4. Finalizar Compra
+# Objetivo: Testar se um usuário pode finalizar um pedido corretamente.
+# Pré-condições: O carrinho deve conter pelo menos um item.
+# Passos:
+- Acessar o carrinho e clicar em "Checkout".
+- Escolher um método de pagamento.
+- Confirmar a compra.
+# Resultado esperado: O pedido deve ser finalizado e uma mensagem de sucesso deve ser exibida.
